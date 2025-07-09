@@ -3,7 +3,7 @@ SETLOCAL ENABLEDELAYEDEXPANSION
 
 rem Set variable values 
 set subscription_id=ca663af4-1306-4dfe-8a9d-19990935c081
-set resource_group=practicergv10
+set resource_group=ramkumar-d3-rg
 set location=westus
 set expiry_date=2026-01-01T00:00:00Z
 

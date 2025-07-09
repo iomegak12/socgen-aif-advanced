@@ -8,17 +8,22 @@ from typing import Any, cast
 from dataclasses import dataclass
 
 import requests
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv(override=True)
 
 
 def main():
     settings = Settings(
-        endpoint="https://practiceaifoundryv10.cognitiveservices.azure.com/",
+        endpoint=os.getenv("ENDPOINT"),
         api_version="2025-05-01-preview",
         # Either subscription_key or aad_token must be provided. Subscription Key is more prioritized.
-        subscription_key="",
+        subscription_key=os.getenv("KEY"),
         aad_token="AZURE_CONTENT_UNDERSTANDING_AAD_TOKEN",
         # Insert the analyzer name.
-        analyzer_id="slide-analyzer",
+        analyzer_id=os.getenv("REPORT_ANALYZER"),
         #  Insert the supported file types of the analyzer.
         file_location="./slide-2.jpg",
     )

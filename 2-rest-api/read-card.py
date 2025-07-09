@@ -22,7 +22,7 @@ def main():
         load_dotenv()
         ai_svc_endpoint = os.getenv('ENDPOINT')
         ai_svc_key = os.getenv('KEY')
-        analyzer = os.getenv('ANALYZER_NAME')
+        analyzer = os.getenv('BIZCARD_ANALYZER_NAME')
 
         # Analyze the business card
         analyze_card(image_file, analyzer, ai_svc_endpoint, ai_svc_key)

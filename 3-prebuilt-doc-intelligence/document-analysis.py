@@ -1,8 +1,6 @@
 from dotenv import load_dotenv
 import os
 
-# Add references
-# Add references
 from azure.core.credentials import AzureKeyCredential
 from azure.ai.formrecognizer import DocumentAnalysisClient
 
