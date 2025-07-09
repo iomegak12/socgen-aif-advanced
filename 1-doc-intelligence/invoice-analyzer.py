@@ -15,7 +15,7 @@ def main():
         endpoint="https://practiceaifoundryv10.services.ai.azure.com/",
         api_version="2025-05-01-preview",
         # Either subscription_key or aad_token must be provided. Subscription Key is more prioritized.
-        subscription_key="FNMOlKiRTDxBg2IIcLdOcDrtH9CrxXgK9lyl54gtVdoZbEeMQGasJQQJ99BGAC4f1cMXJ3w3AAAAACOGZd4W",
+        subscription_key="",
         aad_token="AZURE_CONTENT_UNDERSTANDING_AAD_TOKEN",
         # Insert the analyzer name.
         analyzer_id="invoice-analyzer",

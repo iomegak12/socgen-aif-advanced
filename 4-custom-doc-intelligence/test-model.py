@@ -16,7 +16,7 @@ def main():
         key = os.getenv("DOC_INTELLIGENCE_KEY")
         model_id = os.getenv("MODEL_ID")
 
-        formUrl = "https://github.com/MicrosoftLearning/mslearn-ai-information-extraction/blob/main/Labfiles/custom-doc-intelligence/test1.jpg?raw=true"
+        formUrl = "https://github.com/iomegak12/socgen-aif-advanced/blob/main/4-custom-doc-intelligence/test1.jpg?raw=true"
 
         document_analysis_client = DocumentAnalysisClient(
             endpoint=endpoint, credential=AzureKeyCredential(key)
