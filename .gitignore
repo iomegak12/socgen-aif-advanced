@@ -81,16 +81,4 @@ Desktop.ini
 # Logs
 *.log
 
-# PDF, audio, video, and image files (optional, if you want to ignore outputs)
-*.pdf
-*.mp3
-*.mp4
-*.jpg
-*.png
 
-# Results and data
-*.json
-
-# Shell and batch scripts
-*.sh
-*.cmd
